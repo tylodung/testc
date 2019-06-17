@@ -19,7 +19,7 @@ const HomeNav = ( { isHome } ) =>
                     <Link to="/about">
                         Giới thiệu
 					</Link>
-                    </a>
+                   
                 </li>
             </ul>
         </div>
