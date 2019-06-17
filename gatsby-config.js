@@ -83,7 +83,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "Gatlify CMS Starter";
+          ret.generator = "Câu Chuyện Bí Mật";
           return ret;
         },
         query: `
