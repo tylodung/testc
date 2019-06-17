@@ -35,13 +35,13 @@ const IndexPage = ({ data, pathContext }) => {
 
                 <div className="paginatation">
                     <div className="previousLink">
-                        <PaginateLink tag={ first } url={ previousUrl } text="Bài cũ" />
+                        <PaginateLink tag={ first } url={ previousUrl } text="Prev" />
                     </div>
 
                     <p>{index} of { Math.ceil(total/12)}</p>
 
                     <div className="nextLink">
-                        <PaginateLink tag={ last } url={ nextUrl } text="Bài mới" />
+                        <PaginateLink tag={ last } url={ nextUrl } text="Next" />
                     </div>
 
                 </div>
