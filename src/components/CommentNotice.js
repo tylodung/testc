@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Comment from './Comment'
-import keys from '../apikeys/keys.json'
+
 
 const CommentNotice = ({video}) => 
     <div>
