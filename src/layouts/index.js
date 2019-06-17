@@ -21,7 +21,7 @@ import favicon16 from '../favicons/favicon-16x16.png'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Câu Chuyện Bí Mật"
+      title="Unreal C++"
       meta={[
         { name: 'description', content: 'A tutorial site dedicated to using C++ in Unreal Engine 4.  This site is meant for game developers wanting to learn how to begin using c++ in UE4.' },
         { name: 'keywords', content: 'unreal, engine, ue4, c++, cpp, game, development, harrison, mcguire' },
