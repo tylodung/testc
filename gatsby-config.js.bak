@@ -2,14 +2,14 @@ const config = require("./data/SiteConfig");
 
 module.exports = {
   siteMetadata: {
-    title: config.siteTitle,
+    title: Câu Chuyện Bí Mật,
     siteUrl: config.siteUrl,
     rssMetadata: {
       site_url: config.siteUrl ,
       feed_url: config.siteUrl + config.siteRss,
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `https://res.cloudinary.com/several-levels/image/upload/v1512476066/unreal-cpp-logo_izqxay.png`,
+      image_url: `https://api.adorable.io/avatars/285/site.png`,
       author: config.userName,
       copyright: config.copyright
     }
@@ -83,7 +83,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "Gatlify CMS Starter";
+          ret.generator = "Câu Chuyện Bí Mật";
           return ret;
         },
         query: `
