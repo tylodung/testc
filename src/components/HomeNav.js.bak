@@ -18,7 +18,7 @@ const HomeNav = ( { isHome } ) =>
                 <li role="menuitem">
                     <Link to="/about">
                         Giới thiệu
-					</Link>
+						</Link>
                     </a>
                 </li>
             </ul>
