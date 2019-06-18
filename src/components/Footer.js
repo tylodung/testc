@@ -5,7 +5,7 @@ const Footer = () =>
     <footer className="site-footer outer">
         <div className="site-footer-content inner">
             <section className="copyright">
-                <Link to="/">UnrealCPP.com</Link> | Unreal Engine 4 C++ tutorials
+                <Link to="/">iloves.live</Link> | Tuyệt Chiêu Của Mẹ
             </section>
             <nav>
                 <a className="social-logo" href="https://youtu.be/N4WTi9EHLqA" >

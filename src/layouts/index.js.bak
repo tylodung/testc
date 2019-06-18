@@ -42,7 +42,7 @@ const TemplateWrapper = ({ children }) => (
         { rel: 'icon', type: "image/png", sizes: "32x32", href: favicon32 },
         { rel: 'icon', type: "image/png", sizes: "96x96", href: favicon96 },
         { rel: 'icon', type: "image/png", sizes: "16x16", href: favicon16 },
-        { rel: 'canonical', href: 'https://iloves.live' }
+        { rel: 'canonical', href: 'https://unrealcpp.com' }
       ]}
     />
 
